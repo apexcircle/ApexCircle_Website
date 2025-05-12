@@ -7,8 +7,11 @@ import StatsCounter from './components/StatsCounter';
 import Gallery from './components/Gallery';
 import Events from './components/Events';
 import Team from './components/Team';
+import Partners from './components/Partners';
 import Testimonials from './components/Testimonials';
 import FAQ from './components/FAQ';
+import JoinNow from './components/JoinNow';
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
@@ -22,8 +25,11 @@ function App() {
         <Gallery />
         <Events />
         <Team />
+        <Partners />
         <Testimonials />
         <FAQ />
+        <JoinNow />
+        <Contact />
         <Footer />
       </div>
     </div>
