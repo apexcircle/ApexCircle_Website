@@ -51,7 +51,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
             <div className="flex items-center gap-2 font-bold text-2xl text-white mb-6">
-              <Circle className="h-7 w-7 fill-primary-500 stroke-gray-900" />
+              <img src="assets/logo.png" alt="Apex Circle" className="h-10" />
               <span>Apex Circle</span>
             </div>
             
