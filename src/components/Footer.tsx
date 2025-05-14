@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Circle, Mail, Phone, MapPin, Instagram, Facebook, Twitter, Linkedin, ArrowUp } from 'lucide-react';
+import { Circle, Mail, Phone, MapPin, Instagram, Bot, Linkedin, ArrowUp } from 'lucide-react';
 
 const Footer = () => {
   const scrollToTop = () => {
@@ -24,7 +24,7 @@ const Footer = () => {
     {
       title: "Community",
       links: [
-        { name: "Join Us", href: "#join" },
+        { name: "Join Us", href: "https://linktr.ee/Apex_Circle" },
         { name: "Member Benefits", href: "#benefits" },
         { name: "Success Stories", href: "#testimonials" },
         { name: "Resources", href: "#resources" },
@@ -36,7 +36,6 @@ const Footer = () => {
       links: [
         { name: "Terms of Service", href: "#terms" },
         { name: "Privacy Policy", href: "#privacy" },
-        { name: "Cookie Policy", href: "#cookies" },
         { name: "Community Guidelines", href: "#guidelines" }
       ]
     }
@@ -57,20 +56,17 @@ const Footer = () => {
             </div>
             
             <p className="text-gray-400 mb-6">
-              A vibrant community bringing together individuals who believe in the power of connection, collaboration, and continuous growth.
+            Apex Circle is a platform for innovators, tech enthusiasts to turn bold ideas into reality.Collaborate, create impactful solutions, and push the boundaries of technology. Let’s drive change and shape the future of innovation together.
             </p>
             
             <div className="flex space-x-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
+              <a href="https://www.instagram.com/apex_circle_official/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
-                <Facebook className="h-5 w-5" />
+              <a href="https://discord.gg/6JmtCcDG" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
+                <Bot className="h-5 w-5" />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
-                <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
+              <a href="https://www.linkedin.com/company/apex-circle-official/" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-primary-500 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
@@ -102,17 +98,17 @@ const Footer = () => {
               <div className="space-y-4">
                 <div className="flex items-start">
                   <Mail className="h-5 w-5 text-primary-400 mr-3 mt-1" />
-                  <span className="text-gray-400">hello@apexcircle.com</span>
+                  <span className="text-gray-400">apexcircleofficial2025@gmail.com</span>
                 </div>
                 <div className="flex items-start">
                   <Phone className="h-5 w-5 text-primary-400 mr-3 mt-1" />
-                  <span className="text-gray-400">+1 (555) 123-4567</span>
+                  <span className="text-gray-400">+91 9330304037</span>
                 </div>
                 <div className="flex items-start">
                   <MapPin className="h-5 w-5 text-primary-400 mr-3 mt-1" />
                   <span className="text-gray-400">
-                    123 Community Lane<br />
-                    San Francisco, CA 94103
+                    Kolkata<br />
+                    West Bengal, India
                   </span>
                 </div>
               </div>
